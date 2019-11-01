@@ -64,13 +64,17 @@ Taip gali būti, nes visa informacija iš esmės yra baitų srautas. Visi failai
  * *paprasti failai*
  * *katalogų failai*
  * *prietaisų failai*
+
 Paprasti failai susideda iš informacijos srautų, saugomų kažkokiame atminties įtaise. Tokių failų pavyzdžiai yra paprasti tekstiniai failai, programų informacijos failai, vykdomieji failai.
 Katalogų failai yra lyg talpyklos kitiems failams. Todėl jie nesaugo kažkokios vartotojui suprantamos informacijos, o laiko nuorodas į failus, esančius kataloguose.
 Prietaisų failai yra naudojami aprašyti fizinį įtaisą. Jie nelaiko jokios informacijos, o tik atvaizduoja informaciją, gaunamą iš prietaiso.
 
-**Informacijos šaltiniai : **
- homepages.uc.edu/~thomam/Intro_Unix_Text/File_System.html
- https://www.geeksforgeeks.org/unix-file-system/
+Informacijos šaltiniai :
+
+* homepages.uc.edu/~thomam/Intro_Unix_Text/File_System.html
+
+* https://www.geeksforgeeks.org/unix-file-system/
+
 # Paskaita 5
 
 # Paskaita 6
