@@ -1,28 +1,28 @@
 # Paskaita 1
 
 # Paskaita 2
-###Komandinės eilutės įrankiai
+### Komandinės eilutės įrankiai
 
 Pagal Unix filosofiją, programuojant reikia kurti ir naudoti įrankius - paprastas programas, kurios daro vieną darbą ir jį daro gerai.
 Tad toliau bus pateikiamos programos, kurias tenka dažnai naudoti rašant scenarijus ar dirbant terminale, ir trumpi jų paaiškinimai.
 
 
-####Karšti klavišai
+#### Karšti klavišai
 
 `<ctrl><c>`  - siunčia signalą **SIGINT** procesui, siekiant jį nutraukti. Šis signalas gali būti sulaikytas proceso, todėl jis turi galimybę tvarkingai baigti darbą arba nebaigti darbo.
 `<ctrl><z>`  - siunčia signalą **SIGSTOP** procesui, siekiant jį pristabdyti (*suspend*). Šis signalas negali būti sulaikytas, todėl procesas visada yra sulaikomas.
 
-####Informacija apie komandas
+#### Informacija apie komandas
 
 **man**- sintaksė: ***$man [KOMANDOS_PAVADINIMAS]*** ; parodo nurodytos komandos naudojimo instrukciją
 
-####Failų peržiūros komandos
+#### Failų peržiūros komandos
 
 **cat** - sintaksė: ***$cat [FAILO_PAVADINIMAS]*** ; nuskaito informaciją iš failo ir ją pateikia kaip išvesties duomenis.
 
 **less** - sintaksė: ***$less [FAILO_PAVADINIMAS]*** ; nuskaito informaciją iš failo ir ją pateikia po vieną puslapį, todėl veikia greičiau, nes neskaito viso failo iškart.
 
-####Failų sistemos informacija
+#### Failų sistemos informacija
 
 **ls** - sintaksė: ***$ls [PARAMETRAS] [KATALOGAS]*** ; išrašo katalogo turinį terminale. Keli naudingi parametrai : -la (pateikia duagiau informacijos apie failą ir parodo paslėptus failus), -t (išrykiuoja pagal laiką).
 
@@ -46,7 +46,7 @@ Informacijos šaltiniai :
 # Paskaita 3
 
 # Paskaita 4
-###Unix failų sistema
+### Unix failų sistema
 
 Unix failų sistema yra loginis didelių informacijos kiekių organizavimo ir laikymo metodas. Jis padeda nesunkiai valdyti kompiuterinę sistemą. Failas yra šios saugojimo sistemos mažiausias blokas. Jį neformaliai galima apibrėžti kaip informacijos (dažniausiai susijusios) rinkinį, kuris gali būti logiškai peržiūrimas kaip baitų srautas.Failų sistema ne tik leidžia organizuoti informaciją, bet ir suteikia įrankius, leidžiančius failus keisti. Taip pat ji pasirūpina logiškos organizacijos susiejimu su išoriniais (fiziškais) prietaisais.
  
